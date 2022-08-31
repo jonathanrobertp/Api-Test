@@ -20,15 +20,12 @@ import org.openqa.selenium.Keys as Keys
 response1 = WS.sendRequest(findTestObject('Import Test Case/Reqres/Get List User'))
 
 def slurper = new groovy.json.JsonSlurper()
-
 def result = slurper.parseText(response1.getResponseBodyContent())
 
 def value = result.data[0].first_name
-
 println(' .... Data is : ' + value)
 
 GlobalVariable.userName = value
-
 println('New global Variable Value : ' + GlobalVariable.userName)
 
 WS.sendRequestAndVerify(findTestObject('Import Test Case/Reqres/Put Update'))
