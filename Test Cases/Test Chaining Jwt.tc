@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Chaining Jwt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9daedb88-6658-4d6e-bcbf-e762d11fd665</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec5fc43a-61af-4379-8ca9-274aa5eb5397</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec5fc43a-61af-4379-8ca9-274aa5eb5397</id>
+      <masked>false</masked>
+      <name>Token</name>
+   </variable>
+</TestCaseEntity>

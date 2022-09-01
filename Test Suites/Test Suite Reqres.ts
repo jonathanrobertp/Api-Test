@@ -24,4 +24,17 @@
          <variableId>92d8c1ec-7adc-47f7-ab6e-3cfa899e7303</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b8bea932-0026-4502-9eab-152a09b5962f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Chaining Jwt</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec5fc43a-61af-4379-8ca9-274aa5eb5397</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

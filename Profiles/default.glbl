@@ -9,4 +9,9 @@
       <initValue>'Morpheus'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Token</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
