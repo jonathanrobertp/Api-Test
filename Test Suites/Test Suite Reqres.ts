@@ -17,5 +17,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Chaining</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92d8c1ec-7adc-47f7-ab6e-3cfa899e7303</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -37,7 +37,7 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.userName</defaultValue>
+      <defaultValue>findTestData('Test Data Reqres').getValue(1, 1)</defaultValue>
       <description></description>
       <id>781d81ac-96d6-4f7d-a535-6b32cbce9d2f</id>
       <masked>false</masked>
@@ -62,6 +62,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'name', &quot;Michael&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'job', &quot;zion resident&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

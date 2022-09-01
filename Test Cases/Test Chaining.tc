@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f4ca5a26-c1a0-4575-ac59-0e317af07f37</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92d8c1ec-7adc-47f7-ab6e-3cfa899e7303</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Test Data Reqres').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>92d8c1ec-7adc-47f7-ab6e-3cfa899e7303</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
 </TestCaseEntity>
